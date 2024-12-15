@@ -1,0 +1,213 @@
+html, body {
+    padding: 0;
+    font-family: "Noto Kufi Arabic", sans-serif;
+    font-size: 20px;
+    color: #333;
+    background-color: #dfe9f1;
+}
+
+/*Header styles*/
+header {
+    background-color: #e15f23;
+    color: rgb(242, 239, 235);
+    text-align: left;
+    padding: 20px;
+    margin: 0;
+}
+.header-section {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+header.langbut{
+    font-size: 1rem;
+    font-weight: bold;
+    padding:10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    color:bisque;
+    transition: background-color 0.5s, color 0.3s;
+    text-align: right
+}
+header.langbut:hover {
+    background-color: #9c8e8e;
+    color: white;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    padding: 5px 10px;
+    border: 1px solid #333;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: lightgray;
+}
+
+
+/* Section styles */
+.section {
+    padding: 30px 20px;
+    text-align: center;
+}
+.aboutme { display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin: 20px;
+           .aboutme-text {
+            display:flex; 
+            flex:1;
+            flex-direction: column;
+            background-color: rgb(241, 219, 219);
+            border-radius: 20px;
+            text-align: justify;
+            justify-content: center;
+            padding: 0px 30px;
+            align-items: center;
+           }
+           .aboutme-image{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+           }
+           img{
+            border-radius: 20px;
+           }}
+
+
+.projects-section {
+    display: flex;
+    grid-template-columns: 1fr 300px;
+    gap: 20px;
+    align-items: flex;
+    background-color: white;
+    border: 1px solid purple;
+    border-radius: 10px;
+    padding: 40px 30px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.projects-text{
+    text-align: left;
+}
+
+.projects-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e6903a;
+    color: rgb(5, 2, 19);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.projects-button:hover {
+    background-color: #f54616;
+}
+
+.projects-image img {
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid #333;
+    padding: 10px;
+    
+
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    
+}
+.art-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    border: 1px solid purple;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.art-text {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.art-image{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.art-image img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.4s ease;
+    cursor: pointer;
+
+}
+.art-image img:hover { transform:scale(1.08)}
+
+
+.music-section {
+    align-items: center;
+    background-color: white;
+    border: 1px solid purple;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    }
+.music-text {
+    text-align: left;
+    }
+
+.connect-section {
+    align-items: center;
+    background-color: white;
+    border: 1px solid purple;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.connect-text {
+    text-align: left;
+    }
